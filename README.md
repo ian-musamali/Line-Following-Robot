@@ -40,27 +40,27 @@ This is a line-following, fire-fighting robot that follows a line, detects light
      - Turn on pump
      - Sweep sprinkler left to right
    - Else, keep driving
-
+     
 ## Assembly Instructions
-1. Join the blue chasis by connecting the velco
-2. place the motors in the front and attatch the front wheels
-3. attatch the back wheels with the provided rod
-4. place velco on the middle and at the front of the chasis for the 11.1v battery and h-bridge
-5. connect the h-bridge to the motors making the orange wire goes on top and the grey on the bottom.
-6. connect the positive 11.1v lead to the h-bridge, and connect the 5v output to the input for the adurdino as it will power it.
-7. place velcro on top of the 11v battery and plcae the motherboard on top of it.
-8. use pin config to wire everything up, inlcuding the sensors, pump, and servo. 
-9. place sensors in the sensor holes and tape them down.
-10. place pump at the back of the robot
-12. connect everything to ground.
-13. close everything with the top chasis.
+1. Join the blue chassis by connecting the Velcro.
+2. Place the motors in the front and attach the front wheels.
+3. Attach the back wheels using the provided rod.
+4. Place Velcro in the middle and front of the chassis for the 11.1V battery and H-bridge.
+5. Connect the H-bridge to the motors, ensuring the orange wire is on top and the grey wire is on the bottom.
+6. Connect the positive 11.1V lead to the H-bridge, and connect the 5V output to the Arduino's input to power it.
+7. Place Velcro on top of the 11.1V battery and mount the motherboard on top.
+8. Use the pin configuration to wire everything, including the sensors, pump, and servo.
+9. Place the sensors into the sensor slots and tape them down.
+10. Place the pump at the back of the robot.
+11. Connect everything to ground.
+12. Close everything with the top chassis.
 
 ## How to Use
-1.  once fully assembled. connect the 5v output comming from the h-bridge to the arduino,
-2.  a 5 second delay will begin, giving you time to position the robot and close the chasis.
-3.  the robot will begin to follow the line layed before it
-4.  you can shine a light on the photoresistor to make the robot stop and activate its pumps.
-5.  to stop it,shine a light on the photoresistor or simply pick it up and disconnect the 5v output.
+1. Once fully assembled, connect the 5V output from the H-bridge to the Arduino.
+2. A 5-second delay will begin, giving you time to position the robot and close the chassis.
+3. The robot will begin to follow the line laid before it.
+4. You can shine a light on the photoresistor to make the robot stop and activate the pump.
+5. To stop it, shine a light on the photoresistor again or simply pick it up and disconnect the 5V output.
 
 ## Demo
 
