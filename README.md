@@ -2,14 +2,7 @@
 
 # Fire Truck Robot
 
-Autonomous fire-fighting robot that follows a line, detects light (simulated fire), and activates a water pump with a sweeping servo to extinguish it.
-
-## Features
-
-- Line following with two downward-facing IR sensors (left/right)
-- Light detection with a forward-facing IR sensor
-- Water spraying using a pump and sweeping servo when light is detected
-- Motor control via L298N H-Bridge (PWM speed adjustable)
+This is a line-following, fire-fighting robot that follows a line, detects light (simulated fire), and activates a water pump with a sweeping servo to extinguish it.
 
 ## Pin Configuration
 
@@ -48,15 +41,27 @@ Autonomous fire-fighting robot that follows a line, detects light (simulated fir
      - Sweep sprinkler left to right
    - Else, keep driving
 
-## Notes
-
-- `Speed = 125` by default (range 0–255)
-- `val_M > 400` triggers fire response
-- Uses basic PWM servo control without Servo.h
-- Delay of 5 seconds at startup
+## Assembly Instructions
+1. Join the blue chasis by connecting the velco
+2. place the motors in the front and attatch the front wheels
+3. attatch the back wheels with the provided rod
+4. place velco on the middle and at the front of the chasis for the 11.1v battery and h-bridge
+5. connect the h-bridge to the motors making the orange wire goes on top and the grey on the bottom.
+6. connect the positive 11.1v lead to the h-bridge, and connect the 5v output to the input for the adurdino as it will power it.
+7. place velcro on top of the 11v battery and plcae the motherboard on top of it.
+8. use pin config to wire everything up, inlcuding the sensors, pump, and servo. 
+9. place sensors in the sensor holes and tape them down.
+10. place pump at the back of the robot
+12. connect everything to ground.
+13. close everything with the top chasis.
 
 ## How to Use
-1.  
+1.  once fully assembled. connect the 5v output comming from the h-bridge to the arduino,
+2.  a 5 second delay will begin, giving you time to position the robot and close the chasis.
+3.  the robot will begin to follow the line layed before it
+4.  you can shine a light on the photoresistor to make the robot stop and activate its pumps.
+5.  to stop it,shine a light on the photoresistor or simply pick it up and disconnect the 5v output.
+
 ## Demo
 
 https://drive.google.com/file/d/1TSt5JfWD8-oTP9I-w90VdRtnBKjMMEVX/view
