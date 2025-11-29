@@ -13,7 +13,7 @@
 
 // Peripheral control pins
 #define servo A4  // Servo motor control pin (PWM signal to sweep sprinkler)
-#define pump A5   // Digital output pin to control water pump (via MOSFET or relay)
+#define pump A5   // Digital output pin to control water pump 
 
 // Motor speed (0–255). Higher means faster.
 int Speed = 125;
